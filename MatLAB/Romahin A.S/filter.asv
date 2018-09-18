@@ -1,0 +1,13 @@
+function [out] = filter(input)
+d=[]
+p=[0]
+r=[0]
+s=[0]
+for n = 13:length(input)
+    d(n)=input(n)-input(n-6)-input(n-6)+input(n-12)
+    p(n)=p(n-1)+d(n)
+    r(n)=p(n)+16*d(n)
+    s(n)=s(n-1)+r(n)
+end
+end
+
