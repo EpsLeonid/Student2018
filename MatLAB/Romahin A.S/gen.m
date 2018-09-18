@@ -13,7 +13,6 @@ for t=start:finish
         y(t-start+1)=A*(exp(-t/t1)-exp(-t/t2)) %
     end
 end
-figure % create new window for plot
-plot(x,y) %  draw data
+
 end
 

@@ -12,8 +12,6 @@ for n = 13:length(input)
     r(n-11)=p(n-11)+16*d(n-12)
     s(n-11)=s(n-12)+r(n-11)
 end
-figure % Create new window for plot
-plot(s) % draw data
 out=s % out of function
 end
 
