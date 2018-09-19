@@ -1,11 +1,12 @@
 %This function filtered data
-function [out] = filterTriangle_v5(input)
+function [s] = filterTriangle_v5(input)
 % init arrays
 d=[]
 p=[0]
 r=[0]
 s=[0]
-% we start from n=n-12, because we need start in array from 1, not from 12.
+% we skeep input, if n-k or n-l or n-k-l <1 and if n==1 we init first value
+% with zero
 for n = 1:length(input)
     if(n>12)
         d(n)=input(n)-input(n-6)-input(n-6)+input(n-12)
@@ -30,6 +31,5 @@ for n = 1:length(input)
     
     
 end
-out=s % out of function
 end
 
