@@ -4,4 +4,4 @@ figure % create new window for plot
 plot(masx,masy) %  draw data
 filterData=filterTriangle_v5(masy) % do filter dara
 figure % Create new window for plot
-plot(filterData) % draw data
+plot(masx,filterData) % draw data
