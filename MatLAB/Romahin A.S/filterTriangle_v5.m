@@ -24,7 +24,7 @@ for n = 1:length(input)
     end
     if(n==1)
         p(n)=d(n)
-        r(n)=p(n)
+        r(n)=p(n)+16*d(n)
         s(n)=r(n)
     end
         
