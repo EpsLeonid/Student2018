@@ -1,7 +1,10 @@
+%v gener otprav vhodnie dannie
+%masy/x to chto budem stroit
 [masy,masx] = Gener(-10,100,16,5) 
 figure 
-plot(masx,masy) 
+plot(masx,masy)
+%filtr znacheniy function
 filterData = Filter(masy)
-%disp(filterData)
 figure 
-plot(masx,filterData) 
+plot(masx,filterData)
+%plot - postroenie grafikov

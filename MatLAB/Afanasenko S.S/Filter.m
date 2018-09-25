@@ -1,15 +1,17 @@
+%filter for function iz zadania 
 function [ s ] = Filter( v )
 %UNTITLED Summary of this function goes here
 %   Detailed explanation goes here
+%const dlia varianta 1
 k=8
 l=5
 M=16
-
+%sozdanie massivov
 d = []
 p = [0]
 r = [0]
 s = [0]
-
+%leigth - kol-vo peremennih massiva v
 for i=1:length(v)
     disp(i)
        if (i>1)
@@ -19,7 +21,7 @@ for i=1:length(v)
     if (i>l)
         d(i) = v(i)-v(i-l)
     end
-    
+%po hody usloviy if otsekautsia (zanul) lihnie elementi    
      if (i>k)
        d(i) = v(i)-v(i-k)-v(i-l)
      end
@@ -27,7 +29,7 @@ for i=1:length(v)
     if (i>k+l)
     d(i) = v(i)-v(i-k)-v(i-l)+v(i-k-l)
     end 
-
+%formuli iz zadania (i podgliad v stat)
   if (i>1)
      p(i)=d(i)+p(i-1)
      r(i)=p(i)+M*d(i)
@@ -40,5 +42,6 @@ for i=1:length(v)
         r(i)=p(i)+M*d(i)
         s(i)=r(i)
     end
+%s-vihodnoi argument otklad po osi Y    
 end
     end
