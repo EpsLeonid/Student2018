@@ -7,6 +7,8 @@ Y_arr = zeros(1, t_end - t_start);
 % calculating arr_offset required for proper indexing
 if (t_start <= 0)
     arr_offset = abs(t_start) + 1;
+else 
+    arr_offset = 0;
 end
 
 % data generation
