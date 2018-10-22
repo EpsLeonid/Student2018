@@ -41,11 +41,12 @@ set_global_assignment -name DEVICE AUTO
 set_global_assignment -name TOP_LEVEL_ENTITY filter
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:57:27  NOVEMBER 14, 2017"
-set_global_assignment -name LAST_QUARTUS_VERSION "9.1 SP2"
+set_global_assignment -name LAST_QUARTUS_VERSION 9.1
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name VERILOG_FILE "../Romahin A.S/filter_v5/filter_v5.v"
 set_global_assignment -name VERILOG_FILE add_exp_sig_gen.v
 set_global_assignment -name SYSTEMVERILOG_FILE exp_sig_gen.sv
 set_global_assignment -name SYSTEMVERILOG_FILE f_parameters.sv

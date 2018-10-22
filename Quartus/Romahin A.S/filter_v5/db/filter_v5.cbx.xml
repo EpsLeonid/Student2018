@@ -1,6 +1,5 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="filter_v5">
-		<CBX_INST_ENTRY INSTANCE_NAME="|filter_v5|altshift_taps:inMem_rtl_0" CBX_FILE_NAME="shift_taps_m3m.tdf"/>
 	</PROJECT>
 </LOG_ROOT>
