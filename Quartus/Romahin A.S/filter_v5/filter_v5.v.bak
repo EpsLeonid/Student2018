@@ -1,13 +1,13 @@
-module filter_v5(OUT,IN,clk);
+module filter_v5(clk,reset,OUT,IN);
 
-output reg [7:0] OUT;
-input wire [7:0] IN;
+output reg [15:0] OUT;
+input wire [15:0] IN;
 input clk;
-reg [7:0] inMem [0:12];
-reg [7:0] d [0:1];
-reg [7:0] p [0:1];
-reg [7:0] r [0:1];
-reg [7:0] s [0:1];
+reg [15:0] inMem [0:11];
+reg [15:0] d [0:1];
+reg [15:0] p [0:1];
+reg [15:0] r [0:1];
+reg [15:0] s [0:1];
 integer n;
 integer index;
 
@@ -22,22 +22,22 @@ end
 
 always@(posedge clk)
 begin
-	for(index=12;index>0;index=index-1)
+	for(index=11;index>0;index=index-1)
 	begin
 		inMem[index]=inMem[index-1];
 	end 
 	inMem[0]=IN;
 	if(n>11)
 	begin
-        d[0]=inMem[0]-inMem[6]-inMem[6]+inMem[12];
+        d[0]=inMem[0]-inMem[5]-inMem[5]+inMem[11];
     end
     if(n>5 & n<=11)
     begin
-        d[0]=inMem[n]-inMem[6]-inMem[6];
+        d[0]=inMem[0]-inMem[5]-inMem[5];
     end
     if(n<=5)
     begin
-        d[0]=inMem[n];
+        d[0]=inMem[0];
     end
     if(n>0)
     begin

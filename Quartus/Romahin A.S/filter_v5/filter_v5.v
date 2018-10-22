@@ -1,26 +1,56 @@
-module filter_v5(OUT,IN,clk);
+module filter_v5(clk,reset,OUT,IN);
 
-output reg [7:0] OUT;
-input wire [7:0] IN;
+output reg [15:0] OUT;
+input wire [15:0] IN;
 input clk;
-reg [7:0] inMem [0:11];
-reg [7:0] d [0:1];
-reg [7:0] p [0:1];
-reg [7:0] r [0:1];
-reg [7:0] s [0:1];
-integer n;
+input reset;
+reg [15:0] inMem [0:11];
+reg [15:0] d [0:1];
+reg [15:0] p [0:1];
+reg [15:0] r [0:1];
+reg [15:0] s [0:1];
 integer index;
 
 
 
 initial
 begin
-n=1;
+OUT=0;
+for(index=0;index<12;index=index+1)
+	begin
+		inMem[index]=0;
+	end
+d[0]=0;
+d[1]=0;
+p[0]=0;
+p[1]=0;
+r[0]=0;
+r[1]=0;
+s[0]=0;
+s[1]=0; 
 end
 
 
 
 always@(posedge clk)
+begin
+if(reset==1)
+begin
+OUT=0;
+for(index=0;index<12;index=index+1)
+	begin
+		inMem[index]=0;
+	end
+d[0]=0;
+d[1]=0;
+p[0]=0;
+p[1]=0;
+r[0]=0;
+r[1]=0;
+s[0]=0;
+s[1]=0; 
+end
+else
 begin
 	for(index=11;index>0;index=index-1)
 	begin
@@ -56,6 +86,7 @@ begin
     end
     OUT=s[0];
 	n=n+1;
+end
 end
 
 endmodule
