@@ -10,11 +10,13 @@ reg [15:0] p [0:1];
 reg [15:0] r [0:1];
 reg [15:0] s [0:1];
 integer index;
+integer n;
 
 
 
 initial
 begin
+n=0;
 OUT=0;
 for(index=0;index<12;index=index+1)
 	begin
@@ -36,6 +38,7 @@ always@(posedge clk)
 begin
 if(reset==1)
 begin
+n=0;
 OUT=0;
 for(index=0;index<12;index=index+1)
 	begin
