@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Oct 22 21:05:24 2018
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : filter_v5
+Top-level Entity Name : filter_v5
+Family : Cyclone III
+Device : EP3C5F256C6
+Timing Models : Final
+Total logic elements : 157 / 5,136 ( 3 % )
+    Total combinational functions : 137 / 5,136 ( 3 % )
+    Dedicated logic registers : 89 / 5,136 ( 2 % )
+Total registers : 89
+Total pins : 17 / 183 ( 9 % )
+Total virtual pins : 0
+Total memory bits : 32 / 423,936 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )
