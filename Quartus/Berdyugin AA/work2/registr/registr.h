@@ -1,1 +1,1 @@
-parameter WIDTH=8;
+parameter WIDTH=17;
