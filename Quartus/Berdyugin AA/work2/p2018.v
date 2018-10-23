@@ -38,7 +38,7 @@ end
 
 always@(posedge clk)
 begin
-if(reset==1)
+if(reset!=1)
 
 begin
 n=0;
