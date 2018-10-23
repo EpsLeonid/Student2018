@@ -1,0 +1,287 @@
+Simulator report for registr
+Tue Oct 23 00:29:55 2018
+Quartus II 64-Bit Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 53 nodes     ;
+; Simulation Coverage         ;      59.52 % ;
+; Total Number of Transitions ; 236          ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
+; Device                      ; EP2C5T144C6  ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 64-Bit to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      59.52 % ;
+; Total nodes checked                                 ; 53           ;
+; Total output ports checked                          ; 84           ;
+; Total output ports with complete 1/0-value coverage ; 50           ;
+; Total output ports with no 1/0-value coverage       ; 34           ;
+; Total output ports with no 1-value coverage         ; 34           ;
+; Total output ports with no 0-value coverage         ; 34           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                        ;
++-----------------------------------------------------------+---------------------------------------------------------------------+------------------+
+; Node Name                                                 ; Output Port Name                                                    ; Output Port Type ;
++-----------------------------------------------------------+---------------------------------------------------------------------+------------------+
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2  ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2            ; dataout2         ;
+; |registr|DATA_OUT[0]~8                                    ; |registr|DATA_OUT[0]~8                                              ; combout          ;
+; |registr|DATA_OUT[0]~8                                    ; |registr|DATA_OUT[0]~9                                              ; cout             ;
+; |registr|DATA_OUT[1]~10                                   ; |registr|DATA_OUT[1]~10                                             ; combout          ;
+; |registr|DATA_OUT[1]~10                                   ; |registr|DATA_OUT[1]~11                                             ; cout             ;
+; |registr|DATA_OUT[2]~12                                   ; |registr|DATA_OUT[2]~12                                             ; combout          ;
+; |registr|DATA_OUT[2]~12                                   ; |registr|DATA_OUT[2]~13                                             ; cout             ;
+; |registr|DATA_OUT[3]~14                                   ; |registr|DATA_OUT[3]~14                                             ; combout          ;
+; |registr|DATA_OUT[3]~14                                   ; |registr|DATA_OUT[3]~15                                             ; cout             ;
+; |registr|DATA_OUT[4]~16                                   ; |registr|DATA_OUT[4]~16                                             ; combout          ;
+; |registr|DATA_OUT[4]~16                                   ; |registr|DATA_OUT[4]~17                                             ; cout             ;
+; |registr|DATA_OUT[5]~18                                   ; |registr|DATA_OUT[5]~18                                             ; combout          ;
+; |registr|DATA_OUT[5]~18                                   ; |registr|DATA_OUT[5]~19                                             ; cout             ;
+; |registr|DATA_OUT[6]~20                                   ; |registr|DATA_OUT[6]~20                                             ; combout          ;
+; |registr|DATA_OUT[6]~20                                   ; |registr|DATA_OUT[6]~21                                             ; cout             ;
+; |registr|DATA_OUT[7]~22                                   ; |registr|DATA_OUT[7]~22                                             ; combout          ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1           ; dataout2         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~DATAOUT9  ; dataout11        ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~DATAOUT10 ; dataout12        ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~DATAOUT11 ; dataout13        ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~DATAOUT12 ; dataout14        ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~DATAOUT13 ; dataout15        ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~DATAOUT14 ; dataout16        ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~DATAOUT15 ; dataout17        ;
+; |registr|clk                                              ; |registr|clk~corein                                                 ; combout          ;
+; |registr|C[0]                                             ; |registr|C[0]~corein                                                ; combout          ;
+; |registr|C[1]                                             ; |registr|C[1]~corein                                                ; combout          ;
+; |registr|C[2]                                             ; |registr|C[2]~corein                                                ; combout          ;
+; |registr|C[3]                                             ; |registr|C[3]~corein                                                ; combout          ;
+; |registr|C[4]                                             ; |registr|C[4]~corein                                                ; combout          ;
+; |registr|C[5]                                             ; |registr|C[5]~corein                                                ; combout          ;
+; |registr|C[6]                                             ; |registr|C[6]~corein                                                ; combout          ;
+; |registr|C[7]                                             ; |registr|C[7]~corein                                                ; combout          ;
+; |registr|A[0]                                             ; |registr|A[0]~corein                                                ; combout          ;
+; |registr|A[1]                                             ; |registr|A[1]~corein                                                ; combout          ;
+; |registr|A[2]                                             ; |registr|A[2]~corein                                                ; combout          ;
+; |registr|A[3]                                             ; |registr|A[3]~corein                                                ; combout          ;
+; |registr|A[4]                                             ; |registr|A[4]~corein                                                ; combout          ;
+; |registr|A[5]                                             ; |registr|A[5]~corein                                                ; combout          ;
+; |registr|A[6]                                             ; |registr|A[6]~corein                                                ; combout          ;
+; |registr|A[7]                                             ; |registr|A[7]~corein                                                ; combout          ;
+; |registr|B[0]                                             ; |registr|B[0]~corein                                                ; combout          ;
+; |registr|B[1]                                             ; |registr|B[1]~corein                                                ; combout          ;
+; |registr|B[2]                                             ; |registr|B[2]~corein                                                ; combout          ;
+; |registr|B[3]                                             ; |registr|B[3]~corein                                                ; combout          ;
+; |registr|B[4]                                             ; |registr|B[4]~corein                                                ; combout          ;
+; |registr|B[5]                                             ; |registr|B[5]~corein                                                ; combout          ;
+; |registr|B[6]                                             ; |registr|B[6]~corein                                                ; combout          ;
+; |registr|B[7]                                             ; |registr|B[7]~corein                                                ; combout          ;
+; |registr|clk~clkctrl                                      ; |registr|clk~clkctrl                                                ; outclk           ;
++-----------------------------------------------------------+---------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                          ;
++-----------------------------------------------------------+--------------------------------------------------------------------+------------------+
+; Node Name                                                 ; Output Port Name                                                   ; Output Port Type ;
++-----------------------------------------------------------+--------------------------------------------------------------------+------------------+
+; |registr|DATA_OUT[0]~reg0                                 ; |registr|DATA_OUT[0]~reg0                                          ; regout           ;
+; |registr|DATA_OUT[1]~reg0                                 ; |registr|DATA_OUT[1]~reg0                                          ; regout           ;
+; |registr|DATA_OUT[2]~reg0                                 ; |registr|DATA_OUT[2]~reg0                                          ; regout           ;
+; |registr|DATA_OUT[3]~reg0                                 ; |registr|DATA_OUT[3]~reg0                                          ; regout           ;
+; |registr|DATA_OUT[4]~reg0                                 ; |registr|DATA_OUT[4]~reg0                                          ; regout           ;
+; |registr|DATA_OUT[5]~reg0                                 ; |registr|DATA_OUT[5]~reg0                                          ; regout           ;
+; |registr|DATA_OUT[6]~reg0                                 ; |registr|DATA_OUT[6]~reg0                                          ; regout           ;
+; |registr|DATA_OUT[7]~reg0                                 ; |registr|DATA_OUT[7]~reg0                                          ; regout           ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2  ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2~DATAOUT1  ; dataout3         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2  ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2~DATAOUT2  ; dataout4         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2  ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2~DATAOUT3  ; dataout5         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2  ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2~DATAOUT4  ; dataout6         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2  ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2~DATAOUT5  ; dataout7         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2  ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2~DATAOUT6  ; dataout8         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2  ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2~DATAOUT7  ; dataout9         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~0        ; dataout0         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~1        ; dataout1         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~DATAOUT1 ; dataout3         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~DATAOUT2 ; dataout4         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~DATAOUT3 ; dataout5         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~DATAOUT4 ; dataout6         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~DATAOUT5 ; dataout7         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~DATAOUT6 ; dataout8         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~DATAOUT7 ; dataout9         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~DATAOUT8 ; dataout10        ;
+; |registr|~GND                                             ; |registr|~GND                                                      ; combout          ;
+; |registr|DATA_OUT[0]                                      ; |registr|DATA_OUT[0]                                               ; padio            ;
+; |registr|DATA_OUT[1]                                      ; |registr|DATA_OUT[1]                                               ; padio            ;
+; |registr|DATA_OUT[2]                                      ; |registr|DATA_OUT[2]                                               ; padio            ;
+; |registr|DATA_OUT[3]                                      ; |registr|DATA_OUT[3]                                               ; padio            ;
+; |registr|DATA_OUT[4]                                      ; |registr|DATA_OUT[4]                                               ; padio            ;
+; |registr|DATA_OUT[5]                                      ; |registr|DATA_OUT[5]                                               ; padio            ;
+; |registr|DATA_OUT[6]                                      ; |registr|DATA_OUT[6]                                               ; padio            ;
+; |registr|DATA_OUT[7]                                      ; |registr|DATA_OUT[7]                                               ; padio            ;
++-----------------------------------------------------------+--------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                          ;
++-----------------------------------------------------------+--------------------------------------------------------------------+------------------+
+; Node Name                                                 ; Output Port Name                                                   ; Output Port Type ;
++-----------------------------------------------------------+--------------------------------------------------------------------+------------------+
+; |registr|DATA_OUT[0]~reg0                                 ; |registr|DATA_OUT[0]~reg0                                          ; regout           ;
+; |registr|DATA_OUT[1]~reg0                                 ; |registr|DATA_OUT[1]~reg0                                          ; regout           ;
+; |registr|DATA_OUT[2]~reg0                                 ; |registr|DATA_OUT[2]~reg0                                          ; regout           ;
+; |registr|DATA_OUT[3]~reg0                                 ; |registr|DATA_OUT[3]~reg0                                          ; regout           ;
+; |registr|DATA_OUT[4]~reg0                                 ; |registr|DATA_OUT[4]~reg0                                          ; regout           ;
+; |registr|DATA_OUT[5]~reg0                                 ; |registr|DATA_OUT[5]~reg0                                          ; regout           ;
+; |registr|DATA_OUT[6]~reg0                                 ; |registr|DATA_OUT[6]~reg0                                          ; regout           ;
+; |registr|DATA_OUT[7]~reg0                                 ; |registr|DATA_OUT[7]~reg0                                          ; regout           ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2  ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2~DATAOUT1  ; dataout3         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2  ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2~DATAOUT2  ; dataout4         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2  ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2~DATAOUT3  ; dataout5         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2  ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2~DATAOUT4  ; dataout6         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2  ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2~DATAOUT5  ; dataout7         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2  ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2~DATAOUT6  ; dataout8         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2  ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_out2~DATAOUT7  ; dataout9         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~0        ; dataout0         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~1        ; dataout1         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~DATAOUT1 ; dataout3         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~DATAOUT2 ; dataout4         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~DATAOUT3 ; dataout5         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~DATAOUT4 ; dataout6         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~DATAOUT5 ; dataout7         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~DATAOUT6 ; dataout8         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~DATAOUT7 ; dataout9         ;
+; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1 ; |registr|lpm_mult:Mult0|mult_o5t:auto_generated|mac_mult1~DATAOUT8 ; dataout10        ;
+; |registr|~GND                                             ; |registr|~GND                                                      ; combout          ;
+; |registr|DATA_OUT[0]                                      ; |registr|DATA_OUT[0]                                               ; padio            ;
+; |registr|DATA_OUT[1]                                      ; |registr|DATA_OUT[1]                                               ; padio            ;
+; |registr|DATA_OUT[2]                                      ; |registr|DATA_OUT[2]                                               ; padio            ;
+; |registr|DATA_OUT[3]                                      ; |registr|DATA_OUT[3]                                               ; padio            ;
+; |registr|DATA_OUT[4]                                      ; |registr|DATA_OUT[4]                                               ; padio            ;
+; |registr|DATA_OUT[5]                                      ; |registr|DATA_OUT[5]                                               ; padio            ;
+; |registr|DATA_OUT[6]                                      ; |registr|DATA_OUT[6]                                               ; padio            ;
+; |registr|DATA_OUT[7]                                      ; |registr|DATA_OUT[7]                                               ; padio            ;
++-----------------------------------------------------------+--------------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Simulator
+    Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
+    Info: Processing started: Tue Oct 23 00:29:54 2018
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off regidtr -c registr
+Info: Using vector source file "C:/altera/91sp2/quartus/work2/registr/registr.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      59.52 %
+Info: Number of transitions in simulation is 236
+Warning: FLEXlm software error: Invalid parameter. Feature:       quartus_developer Context:       192.168.1.21 License path:  C:\altera\91\quartus\bin\quartus.dat FLEXnet Licensing error:-42,298 For further information, refer to the FLEXnet Licensing End User Guide, available at "www.macrovision.com".
+Warning: FLEXlm software error: Invalid parameter. Feature:       quartus_developer Context:       192.168.1.21 License path:  C:\altera\91\quartus\bin\quartus.dat FLEXnet Licensing error:-42,298 For further information, refer to the FLEXnet Licensing End User Guide, available at "www.macrovision.com".
+Warning: FLEXlm software error: Invalid parameter. Feature:       quartus_developer Context:       192.168.1.21 License path:  C:\altera\91\quartus\bin\quartus.dat FLEXnet Licensing error:-42,298 For further information, refer to the FLEXnet Licensing End User Guide, available at "www.macrovision.com".
+Warning: FLEXlm software error: Invalid parameter. Feature:       quartus Context:       192.168.1.21 License path:  C:\altera\91\quartus\bin\quartus.dat FLEXnet Licensing error:-42,298 For further information, refer to the FLEXnet Licensing End User Guide, available at "www.macrovision.com".
+Warning: FLEXlm software error: Invalid parameter. Feature:       quartus_developer Context:       192.168.1.21 License path:  C:\altera\91\quartus\bin\quartus.dat FLEXnet Licensing error:-42,298 For further information, refer to the FLEXnet Licensing End User Guide, available at "www.macrovision.com".
+Warning: FLEXlm software error: Invalid parameter. Feature:       quartus_lite Context:       192.168.1.21 License path:  C:\altera\91\quartus\bin\quartus.dat FLEXnet Licensing error:-42,298 For further information, refer to the FLEXnet Licensing End User Guide, available at "www.macrovision.com".
+Warning: FLEXlm software error: Invalid parameter. Feature:       quartus_developer Context:       192.168.1.21 License path:  C:\altera\91\quartus\bin\quartus.dat FLEXnet Licensing error:-42,298 For further information, refer to the FLEXnet Licensing End User Guide, available at "www.macrovision.com".
+Warning: FLEXlm software error: Invalid parameter. Feature:       quartus_debug Context:       192.168.1.21 License path:  C:\altera\91\quartus\bin\quartus.dat FLEXnet Licensing error:-42,298 For further information, refer to the FLEXnet Licensing End User Guide, available at "www.macrovision.com".
+Info: Quartus II 64-Bit Simulator was successful. 0 errors, 16 warnings
+    Info: Peak virtual memory: 194 megabytes
+    Info: Processing ended: Tue Oct 23 00:29:55 2018
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
