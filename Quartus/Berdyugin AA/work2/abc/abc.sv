@@ -1,5 +1,5 @@
 `include "abc.h"
-module abc1(a,b,c,data,clk);
+module abc(a,b,c,data,clk);
 input wire [7:0] a;
 input wire [7:0] b;
 input wire [7:0] c;
