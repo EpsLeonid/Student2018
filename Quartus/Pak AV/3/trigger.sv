@@ -15,12 +15,12 @@ reg[outsize-1:0] data_out;
 always @(clc or rst)
 begin 
 	if (rst)
-	begin
-	data_out<=0;
+		begin
+		data_out<=0;
 	end
 	else
-	begin
-	data_out<=A*B+C;	
+		begin
+		data_out<=A*B+C;	
 	end	
 end
 endmodule
