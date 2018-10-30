@@ -1,3 +1,5 @@
+import registr_param::*;
+
 module registr(DATA_OUT,A,B,C,clk);
 parameter WIDTH_OUT=17;
 input wire [7:0] A;
