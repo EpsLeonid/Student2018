@@ -8,5 +8,5 @@ y=mass(A,t,t1,t2);%запуск функции пункта 1
 figure,plot(t,y),grid;
 %%%%%%%%%%%%%%%%%%%%%Вариант 3%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%% 3 %%%%%%%%%%%%
-[n,s]=cusp3v(t1,t2,A);
-figure,plot(n,s),grid;
+y1=cusp3v1(y);
+figure,plot(t,y1),grid;
