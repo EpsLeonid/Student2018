@@ -1,3 +1,0 @@
-module parametr;
-	parameter size = 8;
-endmodule
