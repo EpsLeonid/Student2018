@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="trigger">
+		<CBX_INST_ENTRY INSTANCE_NAME="|trigger|lpm_mult:Mult1|mult_6us:auto_generated|lpm_add_sub:op_1" CBX_FILE_NAME="add_sub_9eh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|trigger|lpm_mult:Mult1|mult_6us:auto_generated|lpm_add_sub:op_3" CBX_FILE_NAME="add_sub_pch.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|trigger|lpm_mult:Mult1|mult_6us:auto_generated|lpm_add_sub:op_5" CBX_FILE_NAME="add_sub_ceh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|trigger|lpm_add_sub:Add0" CBX_FILE_NAME="add_sub_3ph.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|trigger|lpm_mult:Mult1" CBX_FILE_NAME="mult_6us.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|trigger|lpm_mult:Mult1|mult_6us:auto_generated|lpm_add_sub:op_2" CBX_FILE_NAME="add_sub_6eh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|trigger|lpm_mult:Mult1|mult_6us:auto_generated|lpm_add_sub:op_4" CBX_FILE_NAME="add_sub_9gh.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
