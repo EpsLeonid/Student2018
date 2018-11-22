@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="trig">
+		<CBX_INST_ENTRY INSTANCE_NAME="|trig|lpm_mult:Mult0" CBX_FILE_NAME="mult_6us.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
