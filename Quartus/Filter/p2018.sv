@@ -1,8 +1,7 @@
-import DataFilt_param::*;
 import V2_param::*;
 module p2018(clk,reset,in,out);
 input wire[WIDTH-1:0]			in;
-output reg[WIDTH-1:0]         	out;
+output reg[WIDTH-1:0]         		out;
 //
 input wire            			reset;
 input wire               		clk;
