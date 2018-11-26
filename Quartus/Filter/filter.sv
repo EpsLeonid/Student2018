@@ -71,13 +71,13 @@ module filter (
 		.reset                                                (reset),
 		.input_data                                           (output_data_exp_sig_gen),
 		.output_data                                          (output_data_v1));
-
-	v2_filter FilterV2 (
+*/
+	p2018 FilterV2 (
 		.clk                                                  (clk),
 		.reset                                                (reset),
-		.input_data                                           (output_data_exp_sig_gen),
-		.output_data                                          (output_data_v2));
-
+		.in                                          		(output_data_exp_sig_gen),
+		.out                                         		(output_data_v2));
+/*
 	v3_filter FilterV3 (
 		.clk                                                  (clk),
 		.reset                                                (reset),
