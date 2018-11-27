@@ -46,7 +46,11 @@ set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
-set_global_assignment -name VERILOG_FILE "../Romahin A.S/filter_v5/filter_v5.v"
+set_global_assignment -name SYSTEMVERILOG_FILE DataFilt_param.sv
+set_global_assignment -name SYSTEMVERILOG_FILE p2018.sv
+set_global_assignment -name SYSTEMVERILOG_FILE V2_param.sv
+set_global_assignment -name SYSTEMVERILOG_FILE filter_v5.sv
+set_global_assignment -name SYSTEMVERILOG_FILE parameters_v5.sv
 set_global_assignment -name VERILOG_FILE add_exp_sig_gen.v
 set_global_assignment -name SYSTEMVERILOG_FILE exp_sig_gen.sv
 set_global_assignment -name SYSTEMVERILOG_FILE f_parameters.sv
