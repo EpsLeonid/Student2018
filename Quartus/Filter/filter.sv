@@ -72,7 +72,7 @@ module filter (
 		.input_data                                           (output_data_exp_sig_gen),
 		.output_data                                          (output_data_v1));
 */
-	p2018 FilterV2 (
+	V2_filter FilterV2 (
 		.clk                                                  (clk),
 		.reset                                                (reset),
 		.in                                          		(output_data_exp_sig_gen),
