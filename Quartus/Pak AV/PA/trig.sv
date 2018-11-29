@@ -1,4 +1,4 @@
-module trig(rst,clc,A,B,C,data_out);
+module trig(rst,clc,A,B,C,D,data_out);
 
 import parametr::*;
 input wire rst;
@@ -7,6 +7,7 @@ input wire clc;
 input wire [size-1:0] A;
 input wire [size-1:0] B;
 input wire [size-1:0] C;
+input wire [size-1:0] D;
 
 output wire[outsize-1:0] data_out;
 //reg [outsize-1:0] data_out;
@@ -25,9 +26,12 @@ begin
 	end
 	else
 	begin
+	  data_promm<=C;
+	  data_summ<=data_promm;
+//		data_summ<=C*D;
 		data_mult<=A*B;
-		data_promm<=C;
-		data_summ<=data_promm;
+		
+		
 		data_out<=data_mult+data_summ;	
 	end	
 end

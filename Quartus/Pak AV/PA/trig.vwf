@@ -5,7 +5,7 @@ the Block Editor! File corruption is VERY likely to occur.
 */
 
 /*
-Copyright (C) 1991-2009 Altera Corporation
+Copyright (C) 1991-2010 Altera Corporation
 Your use of Altera Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
@@ -30,346 +30,6 @@ HEADER
 	GRID_PHASE = 0.0;
 	GRID_PERIOD = 10.0;
 	GRID_DUTY_CYCLE = 50;
-}
-
-SIGNAL("data_mult")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = BUS;
-	WIDTH = 16;
-	LSB_INDEX = 0;
-	DIRECTION = REGISTERED;
-	PARENT = "";
-}
-
-SIGNAL("data_mult[15]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_mult";
-}
-
-SIGNAL("data_mult[14]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_mult";
-}
-
-SIGNAL("data_mult[13]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_mult";
-}
-
-SIGNAL("data_mult[12]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_mult";
-}
-
-SIGNAL("data_mult[11]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_mult";
-}
-
-SIGNAL("data_mult[10]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_mult";
-}
-
-SIGNAL("data_mult[9]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_mult";
-}
-
-SIGNAL("data_mult[8]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_mult";
-}
-
-SIGNAL("data_mult[7]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_mult";
-}
-
-SIGNAL("data_mult[6]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_mult";
-}
-
-SIGNAL("data_mult[5]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_mult";
-}
-
-SIGNAL("data_mult[4]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_mult";
-}
-
-SIGNAL("data_mult[3]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_mult";
-}
-
-SIGNAL("data_mult[2]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_mult";
-}
-
-SIGNAL("data_mult[1]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_mult";
-}
-
-SIGNAL("data_mult[0]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_mult";
-}
-
-SIGNAL("data_summ")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = BUS;
-	WIDTH = 16;
-	LSB_INDEX = 0;
-	DIRECTION = REGISTERED;
-	PARENT = "";
-}
-
-SIGNAL("data_summ[15]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_summ";
-}
-
-SIGNAL("data_summ[14]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_summ";
-}
-
-SIGNAL("data_summ[13]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_summ";
-}
-
-SIGNAL("data_summ[12]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_summ";
-}
-
-SIGNAL("data_summ[11]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_summ";
-}
-
-SIGNAL("data_summ[10]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_summ";
-}
-
-SIGNAL("data_summ[9]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_summ";
-}
-
-SIGNAL("data_summ[8]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_summ";
-}
-
-SIGNAL("data_summ[7]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_summ";
-}
-
-SIGNAL("data_summ[6]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_summ";
-}
-
-SIGNAL("data_summ[5]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_summ";
-}
-
-SIGNAL("data_summ[4]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_summ";
-}
-
-SIGNAL("data_summ[3]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_summ";
-}
-
-SIGNAL("data_summ[2]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_summ";
-}
-
-SIGNAL("data_summ[1]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_summ";
-}
-
-SIGNAL("data_summ[0]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = REGISTERED;
-	PARENT = "data_summ";
 }
 
 SIGNAL("A")
@@ -822,6 +482,176 @@ SIGNAL("data_out[0]")
 	PARENT = "data_out";
 }
 
+SIGNAL("data_mult")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = BUS;
+	WIDTH = 16;
+	LSB_INDEX = 0;
+	DIRECTION = BURIED;
+	PARENT = "";
+}
+
+SIGNAL("data_mult[15]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_mult";
+}
+
+SIGNAL("data_mult[14]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_mult";
+}
+
+SIGNAL("data_mult[13]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_mult";
+}
+
+SIGNAL("data_mult[12]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_mult";
+}
+
+SIGNAL("data_mult[11]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_mult";
+}
+
+SIGNAL("data_mult[10]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_mult";
+}
+
+SIGNAL("data_mult[9]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_mult";
+}
+
+SIGNAL("data_mult[8]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_mult";
+}
+
+SIGNAL("data_mult[7]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_mult";
+}
+
+SIGNAL("data_mult[6]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_mult";
+}
+
+SIGNAL("data_mult[5]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_mult";
+}
+
+SIGNAL("data_mult[4]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_mult";
+}
+
+SIGNAL("data_mult[3]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_mult";
+}
+
+SIGNAL("data_mult[2]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_mult";
+}
+
+SIGNAL("data_mult[1]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_mult";
+}
+
+SIGNAL("data_mult[0]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_mult";
+}
+
 SIGNAL("data_promm")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
@@ -992,292 +822,174 @@ SIGNAL("data_promm[0]")
 	PARENT = "data_promm";
 }
 
-TRANSITION_LIST("data_mult[15]")
+SIGNAL("data_summ")
 {
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = BUS;
+	WIDTH = 16;
+	LSB_INDEX = 0;
+	DIRECTION = BURIED;
+	PARENT = "";
 }
 
-TRANSITION_LIST("data_mult[14]")
+SIGNAL("data_summ[15]")
 {
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_summ";
 }
 
-TRANSITION_LIST("data_mult[13]")
+SIGNAL("data_summ[14]")
 {
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_summ";
 }
 
-TRANSITION_LIST("data_mult[12]")
+SIGNAL("data_summ[13]")
 {
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_summ";
 }
 
-TRANSITION_LIST("data_mult[11]")
+SIGNAL("data_summ[12]")
 {
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_summ";
 }
 
-TRANSITION_LIST("data_mult[10]")
+SIGNAL("data_summ[11]")
 {
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_summ";
 }
 
-TRANSITION_LIST("data_mult[9]")
+SIGNAL("data_summ[10]")
 {
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_summ";
 }
 
-TRANSITION_LIST("data_mult[8]")
+SIGNAL("data_summ[9]")
 {
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_summ";
 }
 
-TRANSITION_LIST("data_mult[7]")
+SIGNAL("data_summ[8]")
 {
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_summ";
 }
 
-TRANSITION_LIST("data_mult[6]")
+SIGNAL("data_summ[7]")
 {
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_summ";
 }
 
-TRANSITION_LIST("data_mult[5]")
+SIGNAL("data_summ[6]")
 {
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_summ";
 }
 
-TRANSITION_LIST("data_mult[4]")
+SIGNAL("data_summ[5]")
 {
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_summ";
 }
 
-TRANSITION_LIST("data_mult[3]")
+SIGNAL("data_summ[4]")
 {
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_summ";
 }
 
-TRANSITION_LIST("data_mult[2]")
+SIGNAL("data_summ[3]")
 {
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_summ";
 }
 
-TRANSITION_LIST("data_mult[1]")
+SIGNAL("data_summ[2]")
 {
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_summ";
 }
 
-TRANSITION_LIST("data_mult[0]")
+SIGNAL("data_summ[1]")
 {
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_summ";
 }
 
-TRANSITION_LIST("data_summ[15]")
+SIGNAL("data_summ[0]")
 {
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("data_summ[14]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("data_summ[13]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("data_summ[12]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("data_summ[11]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("data_summ[10]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("data_summ[9]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("data_summ[8]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("data_summ[7]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("data_summ[6]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("data_summ[5]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("data_summ[4]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("data_summ[3]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("data_summ[2]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("data_summ[1]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("data_summ[0]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL U FOR 1000.0;
-	}
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "data_summ";
 }
 
 TRANSITION_LIST("A[7]")
@@ -2831,6 +2543,150 @@ TRANSITION_LIST("data_out[0]")
 	}
 }
 
+TRANSITION_LIST("data_mult[15]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_mult[14]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_mult[13]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_mult[12]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_mult[11]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_mult[10]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_mult[9]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_mult[8]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_mult[7]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_mult[6]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_mult[5]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_mult[4]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_mult[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_mult[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_mult[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_mult[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
 TRANSITION_LIST("data_promm[15]")
 {
 	NODE
@@ -2967,6 +2823,150 @@ TRANSITION_LIST("data_promm[1]")
 }
 
 TRANSITION_LIST("data_promm[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_summ[15]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_summ[14]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_summ[13]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_summ[12]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_summ[11]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_summ[10]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_summ[9]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_summ[8]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_summ[7]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_summ[6]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_summ[5]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_summ[4]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_summ[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_summ[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_summ[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("data_summ[0]")
 {
 	NODE
 	{
