@@ -1,4 +1,4 @@
-import package_settings::*;
+import v1_parameter::*;
 
 module v1_filter
 (
