@@ -75,8 +75,8 @@ module filter (
 	v2_filter FilterV2 (
 		.clk                                                  (clk),
 		.reset                                                (reset),
-		.in                                          		(output_data_exp_sig_gen),
-		.out                                         		(output_data_v2));
+		.input_data                                         	 (output_data_exp_sig_gen),
+		.output_data                                  		(output_data_v2));
 /*
 	v3_filter FilterV3 (
 		.clk                                                  (clk),
