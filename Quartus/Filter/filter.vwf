@@ -5,7 +5,7 @@ the Block Editor! File corruption is VERY likely to occur.
 */
 
 /*
-Copyright (C) 1991-2010 Altera Corporation
+Copyright (C) 1991-2009 Altera Corporation
 Your use of Altera Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
@@ -6032,7 +6032,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "output_data_v5";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Signed;
 	TREE_INDEX = 95;
 	TREE_LEVEL = 0;
 	CHILDREN = 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111;
@@ -6042,7 +6042,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "output_data_v5[15]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Signed;
 	TREE_INDEX = 96;
 	TREE_LEVEL = 1;
 	PARENT = 95;
@@ -6052,7 +6052,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "output_data_v5[14]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Signed;
 	TREE_INDEX = 97;
 	TREE_LEVEL = 1;
 	PARENT = 95;
@@ -6062,7 +6062,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "output_data_v5[13]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Signed;
 	TREE_INDEX = 98;
 	TREE_LEVEL = 1;
 	PARENT = 95;
@@ -6072,7 +6072,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "output_data_v5[12]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Signed;
 	TREE_INDEX = 99;
 	TREE_LEVEL = 1;
 	PARENT = 95;
@@ -6082,7 +6082,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "output_data_v5[11]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Signed;
 	TREE_INDEX = 100;
 	TREE_LEVEL = 1;
 	PARENT = 95;
@@ -6092,7 +6092,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "output_data_v5[10]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Signed;
 	TREE_INDEX = 101;
 	TREE_LEVEL = 1;
 	PARENT = 95;
@@ -6102,7 +6102,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "output_data_v5[9]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Signed;
 	TREE_INDEX = 102;
 	TREE_LEVEL = 1;
 	PARENT = 95;
@@ -6112,7 +6112,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "output_data_v5[8]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Signed;
 	TREE_INDEX = 103;
 	TREE_LEVEL = 1;
 	PARENT = 95;
@@ -6122,7 +6122,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "output_data_v5[7]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Signed;
 	TREE_INDEX = 104;
 	TREE_LEVEL = 1;
 	PARENT = 95;
@@ -6132,7 +6132,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "output_data_v5[6]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Signed;
 	TREE_INDEX = 105;
 	TREE_LEVEL = 1;
 	PARENT = 95;
@@ -6142,7 +6142,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "output_data_v5[5]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Signed;
 	TREE_INDEX = 106;
 	TREE_LEVEL = 1;
 	PARENT = 95;
@@ -6152,7 +6152,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "output_data_v5[4]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Signed;
 	TREE_INDEX = 107;
 	TREE_LEVEL = 1;
 	PARENT = 95;
@@ -6162,7 +6162,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "output_data_v5[3]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Signed;
 	TREE_INDEX = 108;
 	TREE_LEVEL = 1;
 	PARENT = 95;
@@ -6172,7 +6172,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "output_data_v5[2]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Signed;
 	TREE_INDEX = 109;
 	TREE_LEVEL = 1;
 	PARENT = 95;
@@ -6182,7 +6182,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "output_data_v5[1]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Signed;
 	TREE_INDEX = 110;
 	TREE_LEVEL = 1;
 	PARENT = 95;
@@ -6192,7 +6192,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "output_data_v5[0]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Signed;
 	TREE_INDEX = 111;
 	TREE_LEVEL = 1;
 	PARENT = 95;
