@@ -43,7 +43,7 @@ always @ (posedge clk or negedge reset)
 			delay[i]         		<= delay[i-1];
 			end
 			vD1                   	<= delay[0] - delay[Vk];
-			vD2						<= delay[Vl] - delay[Vk+l];
+			vD2						<= delay[Vl] - delay[Vk+Vl];
 			vL						<= vD1-vD2;
 			vp                      <= vp + vL;
 			vMD  					<= vL * VM;
