@@ -7,7 +7,7 @@ input wire [SIZE_ADC_DATA-1:0] input_data,
 
 output reg [SIZE_FILTER_DATA-1:0] output_data);
 //-----------------------------------------------------------------------------
-import parameter_v5::*;
+import v5_parameter::*;
 //-----------------------------------------------------------------------------
 reg signed [SIZE_ADC_DATA*2+2:0] inMem [DELAY:0];
 reg signed [SIZE_ADC_DATA*2+2:0] BUF1;
