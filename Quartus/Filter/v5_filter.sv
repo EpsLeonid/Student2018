@@ -45,14 +45,14 @@ begin
 		begin
 			inMem[i]<= inMem[i-1];
 		end
-		BUF1 <= inMem[0] - inMem[k];
-		BUF2 <= inMem[l] - inMem[k+l];
-		SUMBUF <= BUF1 - BUF2;
-		p <= p + SUMBUF;
-		MULTBUF	<= SUMBUF * M;
-		r <= p + MULTBUF;
-		s <= s + r;
-		output_data <= s >>> 7;
+		BUF1 = inMem[0] - inMem[k];
+		BUF2 = inMem[l] - inMem[k+l];
+		SUMBUF = BUF1 - BUF2;
+		p = p + SUMBUF;
+		MULTBUF	= SUMBUF * M;
+		r = p + MULTBUF;
+		s = s + r;
+		output_data = s >>> 7;
 	end
 end	
 endmodule
