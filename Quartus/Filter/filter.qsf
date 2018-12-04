@@ -36,7 +36,7 @@
 # -------------------------------------------------------------------------- #
 
 
-set_global_assignment -name FAMILY "Stratix II"
+set_global_assignment -name FAMILY "Stratix III"
 set_global_assignment -name DEVICE AUTO
 set_global_assignment -name TOP_LEVEL_ENTITY filter
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
@@ -46,11 +46,15 @@ set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name SYSTEMVERILOG_FILE v2_filter.sv
+set_global_assignment -name SYSTEMVERILOG_FILE v2_param.sv
+set_global_assignment -name SYSTEMVERILOG_FILE parameter_v5.sv
+set_global_assignment -name SYSTEMVERILOG_FILE v1_filter.sv
+set_global_assignment -name SYSTEMVERILOG_FILE v1_parameter.sv
+set_global_assignment -name SYSTEMVERILOG_FILE v5_filter.sv
 set_global_assignment -name SYSTEMVERILOG_FILE DataFilt_param.sv
 set_global_assignment -name SYSTEMVERILOG_FILE p2018.sv
-set_global_assignment -name SYSTEMVERILOG_FILE V2_param.sv
-set_global_assignment -name SYSTEMVERILOG_FILE filter_v5.sv
-set_global_assignment -name SYSTEMVERILOG_FILE parameters_v5.sv
 set_global_assignment -name VERILOG_FILE add_exp_sig_gen.v
 set_global_assignment -name SYSTEMVERILOG_FILE exp_sig_gen.sv
 set_global_assignment -name SYSTEMVERILOG_FILE f_parameters.sv
@@ -58,4 +62,6 @@ set_global_assignment -name SYSTEMVERILOG_FILE filter.sv
 set_global_assignment -name SYSTEMVERILOG_FILE package_settings.sv
 set_global_assignment -name VERILOG_FILE ram_exp_sig_gen.v
 set_global_assignment -name SYSTEMVERILOG_FILE rom_exp_sig_gen.sv
+set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS ON
+set_global_assignment -name TIMEQUEST_DO_CCPP_REMOVAL ON
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
