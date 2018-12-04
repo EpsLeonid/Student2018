@@ -1,6 +1,0 @@
-|task1
-A => Mult0.IN0
-B => Mult0.IN1
-C <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
-
-
