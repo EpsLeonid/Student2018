@@ -46,11 +46,11 @@ begin
 			begin
 				 v[i] <=  v[i-1];
 			end	
-	  dkl	<= v[0] -v[k-1] - v[l-1] + v[k+l-1];
+	  dkl	<= v[0] -v[k] - v[l] + v[k+l];
 	  p <= p + dkl;
       r <= p + dkl*M;
       s <= s + r; 
-      output_data <= s >>> 7;
+      output_data <= s;
       end
 end
 
