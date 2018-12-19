@@ -50,7 +50,7 @@ begin
 	  p <= p + dkl;
       r <= p + dkl*M;
       s <= s + r; 
-      output_data <= s;
+      output_data <= s >>> 7;
       end
 end
 
