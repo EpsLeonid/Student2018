@@ -65,19 +65,19 @@ module filter (
 		.rate												(test_rate),
 		.delay												(test_delay),
 		.output_data										(output_data_exp_sig_gen));
-/*
+
 	v1_filter FilterV1 (
 		.clk                                                  (clk),
 		.reset                                                (reset),
 		.input_data                                           (output_data_exp_sig_gen),
 		.output_data                                          (output_data_v1));
-*/
-	V2_filter FilterV2 (
+
+	v2_filter FilterV2 (
 		.clk                                                  (clk),
 		.reset                                                (reset),
-		.in                                          		(output_data_exp_sig_gen),
-		.out                                         		(output_data_v2));
-/*
+		.input_data                                           (output_data_exp_sig_gen),
+		.output_data                                          (output_data_v2));
+
 	v3_filter FilterV3 (
 		.clk                                                  (clk),
 		.reset                                                (reset),
@@ -91,12 +91,12 @@ module filter (
 		.output_data                                          (output_data_v4));
 		
 
-	filter_v5 FilterV5 (
+	v5_filter FilterV5 (
 		.clk                                                  (clk),
 		.reset                                                (reset),
 		.input_data                                           (output_data_exp_sig_gen),
 		.output_data                                          (output_data_v5));
-
+/*
 	v6_filter FilterV6 (
 		.clk                                                  (clk),
 		.reset                                                (reset),
