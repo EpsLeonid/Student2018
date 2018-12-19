@@ -1,5 +1,5 @@
 module registr(A,B,C,clk,DATA_OUT);
-import parameter::*;
+import param::*;
 //
 input wire[7:0] A;
 input wire[7:0] B;

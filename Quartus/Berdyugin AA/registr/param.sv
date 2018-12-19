@@ -1,4 +1,4 @@
-package parameter;
+package param;
 
 	parameter WIDTH=17;
 	
