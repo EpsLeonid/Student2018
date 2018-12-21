@@ -58,7 +58,7 @@ begin
 				 v[i] <=  v[i-1]; //Zdem, kogda poiavitcia v[k-1] 
 			end
 	  dk <= v[0] + v[k-1];
-	  dl <= v[0] + v[l-1];
+	  dl <= v[0] + v[1];
 	  dl_prom[0] <= dl; 
 	  for (integer i = 1; i<=l; i++)
 			begin
