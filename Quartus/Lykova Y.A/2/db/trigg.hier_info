@@ -1,6 +1,0 @@
-|trigg
-d => q$latch.DATAIN
-clc => q$latch.LATCH_ENABLE
-q <= q$latch.DB_MAX_OUTPUT_PORT_TYPE
-
-
